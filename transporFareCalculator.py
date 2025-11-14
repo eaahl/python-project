@@ -7,6 +7,6 @@ elif passenger_route =="kasoa":
     fare = 10
 elif passenger_route =="Tema":
     fare = 8
-print(f"Route: {passenger_route} \nFare: {fare} \nPassengers: {passengers}")
+print(f"Route: {passenger_route} \nFare: GHS {fare} \nPassengers: {passengers}")
 totalFare = passengers * fare
-print("The total fare for the trip is",totalFare)
+print("The total fare for the trip is GHS",totalFare)
